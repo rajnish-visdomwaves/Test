@@ -37,11 +37,3 @@
 // By Mistakely you have Add the code and Commit the changes and u wanna to Revert the changes the you have use the commit id 
 By using Commit Id You Can Revert the changes 
     git revert <Commit_id>
-
-
-// Most USED Commands
-git status
-git add .
-git commit -m "Message"
-git pull origin main
-git push origin main
