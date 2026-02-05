@@ -1,0 +1,39 @@
+1. If u want to Create a Local Folder as a git folder You have to use 
+    git init
+
+2. after initialization we have to add the files how many files   you want to keep in your Github
+    git add .(All)
+    git add <Specific File Name>
+
+3. What Changes You Have Done You have to say in Message
+    git commit -m(Message) "Example"
+
+4. Then You Have to Declare the Branch name which you're using 
+    git branch -m main
+
+5. Then you have to add the Remote Origin
+        git add origin https://github.com/rajnish-visdomwaves/Test. git
+
+6. Then you have to Push The code 
+    git push origin main
+
+    -> if You're working in Git Folder Group 
+        then you have to Pull the code
+        git pull origin main
+
+    -> Then you have to Push The code 
+    git push origin main
+
+
+// If you want to see the Public code In your System then you have to clone it in your Local System
+    git clone https://github.com/rajnish-visdomwaves/Test. git
+
+// Branch 
+    If Someone Created Branch For you, and you have to push the code on That Branch 
+    first you have to switch the branch
+        git checkout rithika
+        git checkout -b rithika
+
+// By Mistakely you have Add the code and Commit the changes and u wanna to Revert the changes the you have use the commit id 
+By using Commit Id You Can Revert the changes 
+    git revert <Commit_id>
