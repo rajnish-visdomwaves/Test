@@ -12,7 +12,7 @@
     git branch -m main
 
 5. Then you have to add the Remote Origin
-        git add origin https://github.com/rajnish-visdomwaves/Test. git
+        git remote add origin https://github.com/rajnish-visdomwaves/Test. git
 
 6. Then you have to Push The code 
     git push origin main
