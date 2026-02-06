@@ -1,14 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rajnish Profile | Full Stack Developer</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Css Linking -->
+    <link rel="stylesheet" href="Rajnish.css">
 </head>
+
 <body>
-    <h1>Rajnish</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eos aliquam, a suscipit iusto, quos aperiam molestiae distinctio obcaecati sunt magnam alias ab veniam dolorum delectus architecto facilis ex recusandae numquam rem ut deserunt! Sunt nobis facilis praesentium minima error.</p>
-    <h1>    rcffgft</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti sit numquam est a quasi nulla id quas sunt officiis aperiam asperiores natus odit reprehenderit distinctio enim ea praesentium perferendis, voluptate accusamus corporis? Enim, ipsa? Rerum eveniet maiores quam! Quo porro maxime ducimus, neque, enim consectetur tenetur distinctio ea aspernatur nostrum ex facilis placeat. Esse amet ipsam nesciunt soluta quaerat nemo expedita at architecto quae corrupti incidunt, consequatur obcaecati, sed libero nam nisi veniam perferendis accusamus quod! Consequuntur rerum, saepe quidem fugit modi a repudiandae nemo earum deleniti fugiat illo quaerat placeat voluptates inventore adipisci nesciunt fuga quos molestias cumque! Dolore.</p>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-code me-2"></i>Rajnish Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="hero-title">Rajnish</h1>
+            <p class="hero-subtitle mb-4">
+                Full Stack Developer & Technical Mentor.<br>
+                Specializing in building scalable web applications and decoding complex concepts into simple,
+                understandable logic.
+            </p>
+            <a href="#about" class="btn btn-light btn-lg mt-4 shadow-sm rounded-pill px-4"
+                style="color: #667eea; font-weight: 600;">Get Started</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Favorites Row -->
+        <section id="favorites" class="mb-5">
+            <div class="row g-4">
+                <!-- Movies -->
+                <div class="col-md-6">
+                    <div class="custom-card">
+                        <div class="card-header-custom">
+                            <i class="fas fa-film me-2"></i>Top 5 Movies
+                        </div>
+                        <ul class="list-group list-group-flush custom-list-group">
+                            <li class="list-group-item">1. KGF</li>
+                            <li class="list-group-item">2. OG</li>
+                            <li class="list-group-item">3. RRR</li>
+                            <li class="list-group-item">4. Bahubali</li>
+                            <li class="list-group-item">5. Kanthara</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Fruits -->
+                <div class="col-md-6">
+                    <div class="custom-card">
+                        <div class="card-header-custom">
+                            <i class="fas fa-apple-alt me-2"></i>Fruits Layout
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><strong><i class="fas fa-carrot text-danger me-2"></i>Apple</strong>
+                                    <ul class="nested-list mt-1">
+                                        <li class="text-dark">Black Apple</li>
+                                        <li class="text-success">Green Apple</li>
+                                        <li class="text-danger">Red Apple</li>
+                                    </ul>
+                                </li>
+                                <li class="mb-2"><strong><i class="fas fa-lemon text-warning me-2"></i>Orange</strong>
+                                    <ul class="nested-list mt-1">
+                                        <li class="text-warning">Yellow Orange</li>
+                                        <li class="text-success">Green Orange</li>
+                                    </ul>
+                                </li>
+                                <li class="mb-1"><i class="fas fa-seedling text-success me-2"></i>Banana</li>
+                                <li class="mb-1"><i class="fas fa-apple-alt text-danger me-2"></i>Apple</li>
+                                <li class="mb-1"><i class="fas fa-leaf text-success me-2"></i>Pine Apple</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Definition / About Section -->
+        <section id="about" class="mb-5">
+            <h2 class="section-title">About & Philosophy</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">About Rajnish?</div>
+                <div class="faq-answer">
+                    Rajnish is full stack developer and a great mentor. He has a passion for teaching and sharing his
+                    knowledge with others. With his expertise in both frontend and backend technologies, he is able to
+                    provide comprehensive guidance to his students.
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="faq-item h-100">
+                        <div class="faq-question">Why Choose Me?</div>
+                        <div class="faq-answer">
+                            With experience in both frontend and backend, I deliver full-fledged applications that are
+                            efficient, scalable, and user-friendly.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="faq-item h-100">
+                        <div class="faq-question">Why Love Full-Stack Development?</div>
+                        <div class="faq-answer">
+                            Being a full-stack developer allows me to work on both the client-side and server-side,
+                            giving me a complete understanding of application development.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item mt-4 text-center"
+                style="border-left: none; border-top: 5px solid var(--primary-color);">
+                <div class="faq-question">Let's Build the Future!</div>
+                <div class="faq-answer">
+                    Together, we can create innovative and impactful software solutions. For any queries, feel free to
+                    <a href="#" class="contact-link">connect with me!</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-5">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="custom-card p-4 text-center">
+                <div class="mb-4">
+                    <h5 class="text-muted mb-3">Frontend</h5>
+                    <div>
+                        <span class="badge bg-primary skill-badge">HTML</span>
+                        <span class="badge bg-primary skill-badge">CSS</span>
+                        <span class="badge bg-warning text-dark skill-badge">JavaScript</span>
+                        <span class="badge bg-info text-dark skill-badge">Bootstrap</span>
+                        <span class="badge bg-primary skill-badge">ReactJs</span>
+                        <span class="badge bg-info text-dark skill-badge">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h5 class="text-muted mb-3">Backend</h5>
+                    <div>
+                        <span class="badge bg-danger skill-badge">Java</span>
+                        <span class="badge bg-success skill-badge">Spring</span>
+                        <span class="badge bg-success skill-badge">Spring Boot</span>
+                        <span class="badge bg-secondary skill-badge">REST APIs</span>
+                        <span class="badge bg-secondary skill-badge">MVC</span>
+                        <span class="badge bg-dark skill-badge">ExpressJs</span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-3">
+                        <h5 class="text-muted">Database</h5>
+                        <span class="badge bg-primary skill-badge">MySQL</span>
+                        <span class="badge bg-success skill-badge">MongoDB</span>
+                        <span class="badge bg-danger skill-badge">Oracle</span>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <h5 class="text-muted">Tools</h5>
+                        <span class="badge bg-dark skill-badge">Git</span>
+                        <span class="badge bg-secondary skill-badge">Maven</span>
+                        <span class="badge bg-secondary skill-badge">Gradle</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-5">
+            <h2 class="section-title">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="custom-card h-100">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto mb-3"
+                                style="width: 60px; height: 60px;">
+                                <i class="fas fa-user-circle fa-2x text-primary"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Portfolio Website</h5>
+                            <p class="card-text text-muted small">A personal branding site using ReactJs and NodeJs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="custom-card h-100">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto mb-3"
+                                style="width: 60px; height: 60px;">
+                                <i class="fas fa-shopping-cart fa-2x text-warning"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">E-commerce App</h5>
+                            <p class="card-text text-muted small">Developed a shopping platform with React & Spring
+                                Boot.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="custom-card h-100">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto mb-3"
+                                style="width: 60px; height: 60px;">
+                                <i class="fas fa-users-cog fa-2x text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Student Mgmt</h5>
+                            <p class="card-text text-muted small">Built a CRUD app using Spring boot MVC.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="custom-card h-100">
+                        <div class="card-body text-center">
+                            <div class="rounded-circle bg-light d-flex align-items-center justify-content-center mx-auto mb-3"
+                                style="width: 60px; height: 60px;">
+                                <i class="fas fa-box-open fa-2x text-info"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Product Mgmt</h5>
+                            <p class="card-text text-muted small">Built using Spring Boot REST apis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">© 2026 Rajnish Profile. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
